@@ -12,7 +12,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -29,6 +28,9 @@ h3 {
   opacity: 0.7;
 }
 
+p {
+  font-size: 1.3rem;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -45,4 +47,26 @@ h3 {
 
 .bg-color {
   background-color: #c8c5fe;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-color {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 15px;
+  box-shadow: var(box);
+}
+
+.btn-color:hover {
+  background-color: var(--primary-color);
 }
