@@ -42,3 +42,7 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.bg-color {
+  background-color: #c8c5fe;
+}
