@@ -18,6 +18,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  color: #9792f2;
 }
 
 h2 {
@@ -51,8 +52,16 @@ p {
   text-transform: capitalize;
 }
 
+.navbar-brand {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
 .bg-color {
-  background-color: #c8c5fe;
+  background-color: #9792f2;
 }
 
 .contact-link {
